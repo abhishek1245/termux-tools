@@ -199,6 +199,20 @@ Homepage: http://www.xfce.org/
 Description: Development files for libxfce4util                                     This package contains the headers for libxfce4util. If you intend to code
  applications for the Xfce4 desktop environment, you need to install this            package.
 
+Package: enscript
+Architecture: aarch64
+Version: 1.6.6
+Maintainer: lokesh @hax4us
+Installed-Size: 1952
+Filename: dists/extras/main/binary-aarch64/enscript_1.6.6_aarch64.deb
+Size: 248876
+MD5sum: 7435acf583f50f8dc1a78490d78894b6
+SHA1: 66c1696b754124719fab7a79d40995ca37f556ca
+SHA256: 6ad31df697958da1726f01e77d3bfe95624690616f0e4f8f69f976327764e8b1
+SHA512: 8b17f1007e3d0d8b0dddb980d4b4966b8c4b53366960e88203fdd192f4b6a35953665cdd4ae0d7c7b62778374e3dd171f94e4eb757a9868260c7de05bb3695c7
+Homepage: http://git.savannah.gnu.org/cgit/ensript.git
+Description: Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes.
+
 Package: libgtk2
 Architecture: aarch64
 Version: 2.24.32

@@ -72,3 +72,17 @@ SHA512: 359f07d08de4910c96e28a494af3a77754205613f424533723898fd8133e2e61683f99be
 Homepage: http://www.httrack.com
 Description: It allow you to download a World Wide Web site from the Internet
 
+Package: enscript
+Architecture: arm
+Version: 1.6.6
+Maintainer: lokesh @hax4us
+Installed-Size: 1792
+Filename: dists/extras/main/binary-arm/enscript_1.6.6_arm.deb
+Size: 253812
+MD5sum: 18c9a5bd21dbe6161288d9592babe5f1
+SHA1: 9020922eb14991e75d314ae73461092cdd46955a
+SHA256: b8df6fd841611a87425dc7169c1fe36c3bb0d9fe33348dbc77d59818b8c012bb
+SHA512: c50cac6dc7465073e13be4011757f08eb718f1b01142124ab63feaadfa35730455806abc2135f6bc9caad6882d17d58eee0da22bfea77e9578ce587d8b32edb4
+Homepage: http://git.savannah.gnu.org/cgit/ensript.git
+Description: Enscript converts ASCII text files to Postscript, HTML, RTF, ANSI and overstrikes.
+
