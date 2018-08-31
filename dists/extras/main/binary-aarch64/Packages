@@ -204,12 +204,13 @@ Architecture: aarch64
 Version: 1.6.6
 Maintainer: lokesh @hax4us
 Installed-Size: 1952
+Depends: perl
 Filename: dists/extras/main/binary-aarch64/enscript_1.6.6_aarch64.deb
-Size: 248876
-MD5sum: 7435acf583f50f8dc1a78490d78894b6
-SHA1: 66c1696b754124719fab7a79d40995ca37f556ca
-SHA256: 6ad31df697958da1726f01e77d3bfe95624690616f0e4f8f69f976327764e8b1
-SHA512: 8b17f1007e3d0d8b0dddb980d4b4966b8c4b53366960e88203fdd192f4b6a35953665cdd4ae0d7c7b62778374e3dd171f94e4eb757a9868260c7de05bb3695c7
+Size: 248748
+MD5sum: fd61c39c177beae8a171bc4bb8e3d58d
+SHA1: 5c52ac821f06029e41521508dbffa3450b2a07e6
+SHA256: cea3d85eb044848e5ccfc9afffbd756130ce043b4d71c0165b3925ddc48959c6
+SHA512: 78c270385cbe448555cbc391bcd0f2298a63482fbf216a60bd4636b67f8dcc1014a7fef8809103a3a40931f1bc60a7304d73323a3c57db9ebf1312a1e944cc76
 Homepage: http://git.savannah.gnu.org/cgit/ensript.git
 Description: Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes.
 
