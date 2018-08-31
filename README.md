@@ -15,11 +15,13 @@
 11. xfce4-terminal
 12. Thunar
 13. libexo
+14. enscript
 
 ### List Of Available Packages (arm)
 1. wireless-tools
 2. wireshark
 3. hping3
+4. enscript
 
 ### List Of Available Packages (for all platforms)
 1. beef-xss
