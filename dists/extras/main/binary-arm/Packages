@@ -1,31 +1,17 @@
-Package: wireless-tools
+Package: enscript
 Architecture: arm
-Version: 30pre9
-Maintainer: Fredrik Fornwall @fornwall
-Installed-Size: 288
-Filename: dists/extras/main/binary-arm/wireless-tools_30pre9_arm.deb
-Size: 63996
-MD5sum: c49bedfffbe32a4e84a3362918588c9b
-SHA1: 55483b43ccf574dc75d626c5f7458aaaffedd992
-SHA256: 60280a389a15e34ed5c7bec3566fc041da071696dd0c53b611b16ecccb536304
-SHA512: 009082d7cd49c856c53ef2969d5bed8563de99e707e09097e23cba0a6085fb04097c595344e83389b479c3b23a40e9cfc45ef9d504c47648e829f3f1782ac98d
-Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
-Description: Tools allowing to manipulate the Wireless Extensions
-
-Package: wireless-tools-dev
-Architecture: arm
-Version: 30pre9
-Maintainer: Fredrik Fornwall @fornwall
-Installed-Size: 60
-Depends: wireless-tools
-Filename: dists/extras/main/binary-arm/wireless-tools-dev_30pre9_arm.deb
-Size: 17280
-MD5sum: 92aff2a1c47c42bff067785266a3dcc2
-SHA1: 099e2118ddd9c2a53f5d866c4f1697f2d5535b20
-SHA256: 1416e8d274d9518e44336a4a007e8c29acd83a04829212e79c61f5f5f591ca43
-SHA512: bccb714284179599a209c5ca45dbd5d4f1cafcd71d345c784c539fa49ef4f722c4e05b5382479029a6c8c537638b6942a850b8e551800b1556f32439d011e8ac
-Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
-Description: Development files for wireless-tools
+Version: 1.6.6
+Maintainer: lokesh @hax4us
+Installed-Size: 1792
+Depends: perl
+Filename: dists/extras/main/binary-arm/enscript_1.6.6_arm.deb
+Size: 253712
+MD5sum: 4c0929ffd4056b4310a47396e8b006b8
+SHA1: e2fa119ccb7abbcfc82070b08ccc1c3d40647738
+SHA256: b71ff64adb61b7a11563ad432537290cfdaa036ecac642596dd43898ee07a41b
+SHA512: 730da066746d4543213cf85dd6cd8cf0c268b603b939169a69d48a91dc7ca6cce8274ae515a246db72481cd1c2233db41ec0a19d3cf6f68cc3f590922979b6c1
+Homepage: http://git.savannah.gnu.org/cgit/ensript.git
+Description: Enscript converts ASCII text files to Postscript, HTML, RTF, ANSI and overstrikes.
 
 Package: hping3
 Architecture: arm
@@ -72,18 +58,50 @@ SHA512: 359f07d08de4910c96e28a494af3a77754205613f424533723898fd8133e2e61683f99be
 Homepage: http://www.httrack.com
 Description: It allow you to download a World Wide Web site from the Internet
 
-Package: enscript
+Package: wireless-tools-dev
 Architecture: arm
-Version: 1.6.6
-Maintainer: lokesh @hax4us
-Installed-Size: 1792
-Depends: perl
-Filename: dists/extras/main/binary-arm/enscript_1.6.6_arm.deb
-Size: 253712
-MD5sum: 4c0929ffd4056b4310a47396e8b006b8
-SHA1: e2fa119ccb7abbcfc82070b08ccc1c3d40647738
-SHA256: b71ff64adb61b7a11563ad432537290cfdaa036ecac642596dd43898ee07a41b
-SHA512: 730da066746d4543213cf85dd6cd8cf0c268b603b939169a69d48a91dc7ca6cce8274ae515a246db72481cd1c2233db41ec0a19d3cf6f68cc3f590922979b6c1
-Homepage: http://git.savannah.gnu.org/cgit/ensript.git
-Description: Enscript converts ASCII text files to Postscript, HTML, RTF, ANSI and overstrikes.
+Version: 30pre9
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 60
+Depends: wireless-tools
+Filename: dists/extras/main/binary-arm/wireless-tools-dev_30pre9_arm.deb
+Size: 17280
+MD5sum: 92aff2a1c47c42bff067785266a3dcc2
+SHA1: 099e2118ddd9c2a53f5d866c4f1697f2d5535b20
+SHA256: 1416e8d274d9518e44336a4a007e8c29acd83a04829212e79c61f5f5f591ca43
+SHA512: bccb714284179599a209c5ca45dbd5d4f1cafcd71d345c784c539fa49ef4f722c4e05b5382479029a6c8c537638b6942a850b8e551800b1556f32439d011e8ac
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
+Description: Development files for wireless-tools
+
+Package: wireless-tools
+Architecture: arm
+Version: 30pre9
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 288
+Filename: dists/extras/main/binary-arm/wireless-tools_30pre9_arm.deb
+Size: 63996
+MD5sum: c49bedfffbe32a4e84a3362918588c9b
+SHA1: 55483b43ccf574dc75d626c5f7458aaaffedd992
+SHA256: 60280a389a15e34ed5c7bec3566fc041da071696dd0c53b611b16ecccb536304
+SHA512: 009082d7cd49c856c53ef2969d5bed8563de99e707e09097e23cba0a6085fb04097c595344e83389b479c3b23a40e9cfc45ef9d504c47648e829f3f1782ac98d
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
+Description: Tools allowing to manipulate the Wireless Extensions
+
+Package: apt
+Architecture: arm
+Version: 1.4.8-8
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2156
+Depends: libcurl, liblzma, dpkg, gpgv, libc++, libdb, termux-exec
+Conflicts: apt-transport-https
+Replaces: apt-transport-https
+Filename: dists/extras/main/binary-arm/apt_1.4.8-8_arm.deb
+Size: 736696
+MD5sum: cbe1fc78fbe65b59ca0fae1f8c3ed232
+SHA1: 25d03bb3ec1a091bb93d2d4ef39947ffc03746e0
+SHA256: 1d893b7a8e8df1ee89ce6e79b85c5da04269b170461c20de87e5f8ede172642a
+SHA512: 13edb4bbac5eb9dc2f3c31a0f80d7aa9d99783ea3a25feb39b3845592b8e10f8f534ab653caab61b9badabbec578bf47a4212e7c7728a3eded748609aecbf3e0
+Homepage: https://packages.debian.org/apt
+Description: Front-end for the dpkg package manager
 

@@ -12,34 +12,48 @@ SHA256: 4ef8fbdd2a04162acedeee05dffca41560965c17b5aa6a0725f895373668c014
 SHA512: 31da61b7ab17886e56c6c4dd821f9bac048d82b7f80cd0a6902306f167fc4f100ee57e6743d719c4faf79bcb6901757895c3ecf718a04ec3ba159b2dbfeedfbd
 Description: Storage expression calculator
 
-Package: libxfce4util-bin
+Package: enscript
 Architecture: aarch64
-Version: 4.12.1
-Maintainer: Lokesh @hax4us
-Filename: dists/extras/main/binary-aarch64/libxfce4util-bin_4.12.1_aarch64.deb
-Size: 49520
-MD5sum: 26ac26ff49a3494f704784bb71463731
-SHA1: d3e41e16041d5cb1bccec7ae0a96a1c70b520ca5
-SHA256: bd6bcefc5b09ee88ce7ff88438594bde99a5b0463a56e6dbe9ad1f20634b941f
-SHA512: 785aef6c954e0f61b07b2518ecf255e7d2b96603ad7f92a74be18e42c86f09865d1ba6094068ed303c7030edf8e7275e5c67ea9a481cbd97ec3bfcd7f389eb02
-Homepage: http://www.xfce.org/
-Description: tools for libxfce4util This package contains binaries used by Xfce basic utility library.
- At the moment, the following programs are included:                                  - xfce4-kiosk-query: query Xfce kiosk capabilities.
+Version: 1.6.6
+Maintainer: lokesh @hax4us
+Installed-Size: 1952
+Depends: perl
+Filename: dists/extras/main/binary-aarch64/enscript_1.6.6_aarch64.deb
+Size: 248748
+MD5sum: fd61c39c177beae8a171bc4bb8e3d58d
+SHA1: 5c52ac821f06029e41521508dbffa3450b2a07e6
+SHA256: cea3d85eb044848e5ccfc9afffbd756130ce043b4d71c0165b3925ddc48959c6
+SHA512: 78c270385cbe448555cbc391bcd0f2298a63482fbf216a60bd4636b67f8dcc1014a7fef8809103a3a40931f1bc60a7304d73323a3c57db9ebf1312a1e944cc76
+Homepage: http://git.savannah.gnu.org/cgit/ensript.git
+Description: Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes.
 
-Package: libxfixes-dev
+Package: gobject-introspection
 Architecture: aarch64
-Version: 5.0.3
-Maintainer: Fredrik Fornwall @fornwall
-Installed-Size: 16
-Depends: libxfixes
-Filename: dists/extras/main/binary-aarch64/libxfixes-dev_5.0.3_aarch64.deb
-Size: 4200
-MD5sum: 0b88eeb5efed5a5a832cd90ecf5eee03
-SHA1: 62bc609414aad6d9bdcc09729bbcfd9de108a5e5
-SHA256: 1f069cf386283c26fc4ff56061297d518af3e9dfddb0d8206f64b927dbd3bf86
-SHA512: 37ae2058554a6691d1c6fd037898d24839ea03cdffb9c54414935dfb8b406b11c2a839b80b1ae575956bb942f0aed2da554814611e2629776de066807d2cf493
-Homepage: https://www.x.org
-Description: Development files for libxfixes
+Version: 1.56.1
+Maintainer: lokesh @hax4us
+Installed-Size: 12108
+Depends: python, flex, glib
+Filename: dists/extras/main/binary-aarch64/gobject-introspection_1.56.1_aarch64.deb
+Size: 1323436
+MD5sum: 3c7683d2d35a8e099bc1f10c0cf34714
+SHA1: bf23a27b8c6e627c56a13e48a3a1db7eb75d033f
+SHA256: a8e45ef42e0e3fd8815f2f14f7c1806a70ae63b98e318b1df2064a6d25c7fab6
+SHA512: a14b7690c0ca2dbbb6c90d3f6ee73882c29cee7bdf96f6158de4e8578cb81d3f27f98db8cd9083b020a2867497ee6fe0d4bfae5128ffbfad8b98585988172c3a
+Description: The GObject Introspection is used to describe the program APIs and collect them in a uniform, machine readable format
+
+Package: hping3
+Architecture: aarch64
+Version: 3.0.0
+Maintainer: Lokesh @hax4us
+Installed-Size: 180
+Depends: libpcap, libandroid-shmem
+Filename: dists/extras/main/binary-aarch64/hping3_3.0.0_aarch64.deb
+Size: 49500
+MD5sum: 49e8fe8ec8806273133f8e3aa8e6dd66
+SHA1: 0bc3222ecdd0bf46a4684b07c36c1fb1753c8113
+SHA256: 57769c9e6783ece100f88b342c7d9d4bddf0c2be2ac052a660bbbd0c4221c48b
+SHA512: 12aabc4daefe8085386aae9dfedffa847c6a7f6bbec11257b7b680e8700b185c52c95cd95e73c7addb35b16a64b1718e2ca971310fa2095d4dbaa728833b1052
+Description: hping is a command-line oriented TCP/IP packet assembler/analyzer.
 
 Package: httrack-dev
 Architecture: aarch64
@@ -56,6 +70,73 @@ SHA512: 7ae0ee07cd22ce2668471f10cee30fe981b4fb0c8e908e088185693287352ca5fa0bf4fb
 Homepage: http://www.httrack.com
 Description: Development files for httrack
 
+Package: httrack
+Architecture: aarch64
+Version: 3.49.2
+Maintainer: lokesh @hax4us
+Installed-Size: 2248
+Depends: openssl
+Filename: dists/extras/main/binary-aarch64/httrack_3.49.2_aarch64.deb
+Size: 437576
+MD5sum: fb7a7518dc836b50323f0b11fe75eff2
+SHA1: 4a5da76d5df2d268c2c7884aa43ccb678029230f
+SHA256: 7167a3bafc11fa2fbcb4244f51b372d3e4edc08ff450dfaa752c34d63a64ddc4
+SHA512: 9ab07caf77459ea6aa5104a000daf7ec93a20b5bd49061f595a78805018d8930afc677ef38edfb4767e278f2f239a781e4e654fc3c9f03515639156e61a6db1c
+Homepage: http://www.httrack.com
+Description: It allows you to download a World Wide Web site from the Internet
+
+Package: libdbus-dev
+Architecture: aarch64
+Version: 1.12.2
+Maintainer: Lokesh @hax4us
+Depends: libdbus, pkg-config
+Filename: dists/extras/main/binary-aarch64/libdbus-dev_1.12.2_aarch64.deb
+Size: 22656
+MD5sum: 42bcfb3680220a08cdb5402a5359c14c
+SHA1: d6e9dc6e10a0d8140e5226c714328e4ccb9d5372
+SHA256: c0c69e551b59889eb16fa99b16302bb072e81a44b406f39f54cb2943fd436267
+SHA512: b201cfdf10ab4e6741b97b0e99b1b554f619963f8dd842831fed2baae05b009e7acf0ab4e0d38abcc045fa7b439532f00811d26b587787b9d549b2fa76639f9f
+Description: D-Bus is a message bus system, a simple way for applications to talk to one another. D-Bus supplies both a system daemon (for events such as “new hardware device added” or “printer queue changed”) and a per-user-login-session daemon (for general IPC needs among user applications). Also, the message bus is built on top of a general one-to-one message passing framework, which can be used by any two applications to communicate directly (without going through the message bus daemon). This package contains header files.
+
+Package: libdbus-glib-dev
+Architecture: aarch64
+Version: 0.108
+Maintainer: Lokesh @hax4us
+Depends: libdbus, libdbus-dev, libdbus-glib, glib, libexpat-dev, glib-dev, pkg-config
+Filename: dists/extras/main/binary-aarch64/libdbus-glib-dev_0.108_aarch64.deb
+Size: 41172
+MD5sum: 54cb2dbb42ee307b384ad1500323adfc
+SHA1: 6a22b88a9b00bb6bbcb776d736b54f0b42192e9f
+SHA256: 69bb07de5dd4c1260c8a19532bea8832557822c8826b7f4893f77e6bd005c309
+SHA512: 7681d4c5ad5265255ad42a33d2bad4d71441d2bdb855ad6b12feeca2ed4f7ab1501b0d24c50c01e4a1d049d432086fe86971fc6d2c16ad409bdef0f56b60c7a8
+Description: simple interprocess messaging system (GLib interface) D-Bus is a message bus, used for sending messages between applications. Conceptually, it fits somewhere in between raw sockets and CORBA in terms of complexity. This package provides development files for a deprecated GLib-based D-Bus library. New code should se GDBus, part of GLib, instead.
+
+Package: libdbus-glib
+Architecture: aarch64
+Version: 0.108
+Maintainer: Lokesh @hax4us
+Depends: libdbus, glib
+Filename: dists/extras/main/binary-aarch64/libdbus-glib_0.108_aarch64.deb
+Size: 192344
+MD5sum: dccf72cfcbb8448dcacb7aca1b6e9f1c
+SHA1: b62eaa5775a92d77d1040980c05c34ce5a79be95
+SHA256: b170967442f2bd8f4912b6fcffc69e57576e5b3196d147b639daa6fa09efca42
+SHA512: 55894303a01e66b977f1dde606acb5adf66a15668f17d6baf5426b599ec31bfb3b3e1764e3f250e9999342fc04e8eae2ae4d0dff0d54aabb0ce48d6316aa0b74
+Description: simple interprocess messaging system (GLib interface) D-Bus is a message bus, used for sending messages between applications. Conceptually it fits somewhere in between raw sockets and CORBA in terms of complexity. This package provides development files for a deprecated GLib-based D-Bus library. New code should se GDBus, part of GLib, instead.
+
+Package: libdbus
+Architecture: all
+Version: 1.12.2
+Maintainer: Lokesh @hax4us
+Depends: libx11, libx11-dev, libice, libice-dev, libexpat, libexpat-dev, glib, glib-dev, libxcb, libxcb-dev, libxcomposite, libxcomposite-dev, libxext-dev, libxi-dev, libxau-dev, xcb-util, libxaw, libxrender-dev, libsm, xtrans
+Filename: dists/extras/main/binary-aarch64/libdbus_1.12.2_aarch64.deb
+Size: 369388
+MD5sum: aa69c394e460fa0ff8d58ec59da68f34
+SHA1: b2f21838509c03a751f58e93d0ab33df01b2ddef
+SHA256: 95c07c781274ad1fa6895bf31837e28fb596613650de427a67c712a843f0092d
+SHA512: 6377280fe3219f43de6ae294c02e3fa602fdcc538cf3cc15c196f5cad8e1be0e0269721eb86e91d1d67f5ca5d2bdf1d9cf144f3637887bbc8b0f469097144e64
+Description: D-Bus is a message bus system, a simple way for applications to talk to one another. D-Bus supplies both a system daemon (for events such as “new hardware device added” or “printer queue changed”) and a per-user-login-session daemon (for general IPC needs among user applications). Also, the message bus is built on top of a general one-to-one message passing framework, which can be used by any two applications to communicate directly (without going through the message bus daemon).
+
 Package: libgtk2-dev
 Architecture: aarch64
 Version: 2.24.32
@@ -69,77 +150,88 @@ SHA256: c504765216b73c5a01a9c33780ea6a7d37d63bb9a9b58e2067d00ceb29b5014c
 SHA512: 7648be1c2c282b171c08c056366be62322f29390f01d78692be6d946730fccf772596389b9ada8b8612fbc04bd5d98b118d60fad86694a98d0de666e4d4858bb
 Description: GTK+ graphical user interface library                                   GTK+ is a multi-platform toolkit for creating graphical user                        interfaces. Offering a complete set of widgets, GTK+ is suitable                    for projects ranging from small one-off tools to complete application               suites.                                   .                                         This package contains development files of gtk2.0 .
 
-Package: wireless-tools-dev
+Package: libgtk2
 Architecture: aarch64
-Version: 30pre9
-Maintainer: Fredrik Fornwall @fornwall
-Installed-Size: 60
-Depends: wireless-tools
-Filename: dists/extras/main/binary-aarch64/wireless-tools-dev_30pre9_aarch64.deb
-Size: 17284
-MD5sum: 5b6d3bfd3d40a2213758b624af483a13
-SHA1: 386a3fa7ebbc4d7aab5e44e747d282135b987a6e
-SHA256: 13fe6c27a7afde1fdfaf8969a82655c81eba4633c089932951130fdf0e3d0bd1
-SHA512: 49377eeda0a45baa33be8c2c9fa0f8f393bb27c94f81d7bbe49efae7d0727b2042a576522e9e8103527c02935a03c6ee9664afaf757a043875bbeb627d093c3a
-Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
-Description: Development files for wireless-tools
-
-Package: thunar
-Architecture: aarch64
-Version: 1.7.0
+Version: 2.24.32
 Maintainer: Lokesh @hax4us
-Installed-Size: 9812
-Depends: libxfce4ui, libexo, libgtk3
-Filename: dists/extras/main/binary-aarch64/thunar_1.7.0_aarch64.deb
-Size: 1671272
-MD5sum: a42d30f6e3efc95b13edcd9109f68274
-SHA1: 1d91cb98f28c814641cb5d83fe00fb84665683fe
-SHA256: f7c945d37c93207ae764754902b455e986acccb971e746331c48ce7e963f44af
-SHA512: 9fcd412ec2f7f101e18182d5465da153557bd1c75e36e1d1e289fcbe4293ebe28895455997c13ca27a9c4370bbdf4083a226684e7a91db6112cab46f509725c4
-Description: Thunar is the Xfce file manager, a GTK+ 2 GUI to organise the files on your computer.
+Depends: adwaita-icon-theme, desktop-file-utils, gdk-pixbuf, glib, glib-bin, libatk, libcairo-x, libepoxy, libxcomposite, libxdamage, libxfixes, libxi, libxinerama, pangoxft, shared-mime-info, x11-proto, hicolor-icon-theme
+Filename: dists/extras/main/binary-aarch64/libgtk2_2.24.32_aarch64.deb
+Size: 9509628
+MD5sum: c14bcfacd2d26fd0caf829234cf54b35
+SHA1: c78762c03daab520f6145932ea21b8b8716c59a3
+SHA256: ae09db3501eead13f0fb74331612ff6b13379c23b972ce62ce3845ebc3129d96
+SHA512: d7c9b1fc2d2847a6bb25637424ba1b1dff1e5fae0bce8af11175ff2554377a13a8c716814cdcab457d761ed93107ed445a1b6bfa3394808eb85482905ff80152
+Description: GTK+ graphical user interface library                                   GTK+ is a multi-platform toolkit for creating graphical user                        interfaces. Offering a complete set of widgets, GTK+ is suitable                    for projects ranging from small one-off tools to complete application               suites.                                   .                                         This package contains the shared libraries & binaries.
 
-Package: xfce4-terminal
+Package: libvte-dev
 Architecture: aarch64
-Version: 0.8.6
-Maintainer: Lokesh<lokesh@hax4us>@hax4us
-Depends: libatk, libcairo-x, gdk-pixbuf, glib, libgtk3, pangoxft, libvte, libx11, libxfce4ui, libxfce4util
-Filename: dists/extras/main/binary-aarch64/xfce4-terminal_0.8.6_aarch64.deb
-Size: 391336
-MD5sum: c55a26d5e04d44c541aba49d0257bd58
-SHA1: 7059192f8391dfe13fcda5bd7b5c7fbcd236c44b
-SHA256: 20c2e0bf3039c6a2bc2443608ef4156d1e70fdc94c83448946b4be388e8094c6
-SHA512: 43c78459983790dc884be37031439a9ca0763c070954c24dc98f0144d6905aaf89ca5670238df09a4c2d3c9cd179c990de4d03c8e427817c6fb4f2c5ffc756c8
+Version: 0.50.2
+Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
+Depends: libvte, pcre2-dev, libcairo-x-dev, libx11-dev, libgtk3-dev, pangoxft-dev, glib-dev
+Filename: dists/extras/main/binary-aarch64/libvte-dev_0.50.2_aarch64.deb
+Size: 42428
+MD5sum: e0478081f164205476af3f9762c42508
+SHA1: 059e41bb2bd9ea4328701d87dc9815caabcca8cf
+SHA256: fd2219f44961d91cac4bf2119f08ecb3c44dddfb92e9a118c22224d60927026b
+SHA512: e34f29d65a417fbe63ad02e8cb063ee996d036a83e76e3eb069813186dbbe09a5a35e78a15c46e07a77468a70ee3e4d656c43d25423508e1016d3d8c810f98f3
 Homepage: http://www.xfce.org/
-Description: Xfce terminal emulator        This package contains Terminal, which is a lightweight and easy to use              terminal emulator for X11. It was created to fit nicely into the Xfce               desktop environment, but it also fits nice with other environments.                 .                                         For people who already know GNOME 2 terminal and are searching for a                lighter but comparable replacement, Terminal
+Description: Terminal emulator widget for GTK+ 3.0 - development files               The VTE library provides a terminal emulator widget VteTerminal for                 applications using the GTK+ toolkit. It also provides the VtePTY object             containing functions for starting a new process on a new                            pseudo-terminal and for manipulating pseudo-terminals.                              .                                         This package contains development files for the VTE library
 
-Package: wireless-tools
+Package: libvte
 Architecture: aarch64
-Version: 30pre9
-Maintainer: Fredrik Fornwall @fornwall
-Installed-Size: 316
-Filename: dists/extras/main/binary-aarch64/wireless-tools_30pre9_aarch64.deb
-Size: 61864
-MD5sum: ea11908026a693f3b34eb913ee445e85
-SHA1: 5e22d8eec377496dee420f961e3575e0894378e3
-SHA256: c6c006cfc8101845c75cd467d8f0562652b3a0be4bfdaceda7cb045fee2a4e6b
-SHA512: 322036b92bca9b816927b046e70607cd402c8e5e64fc72336347bfba1dc6b4124db28935daf9fd3257ef2933012a1627b8c8166e6f7b5767b000ddc1ae398516
-Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
-Description: Tools allowing to manipulate the Wireless Extensions
+Version: 0.50.2
+Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
+Depends: fontconfig, freetype, gdk-pixbuf, glib, libgtk3, libcairo-x, pangoxft, libx11
+Filename: dists/extras/main/binary-aarch64/libvte_0.50.2_aarch64.deb
+Size: 406452
+MD5sum: 441fb998ec649fb35c777e66ec61f48a
+SHA1: 57ccc37d79c58c2811422552b991ecb7d6d772dd
+SHA256: b573eaa0c2f57236a7802335e96ab77fe5f66506c991143d1721c29be01f59d8
+SHA512: 3c3a0e11bf71bbbf952748999a5300aa9a2f97a6efdf5701a18d6d9d2f9c13a2dacd0efb53211f1b8a80d64ce7fc5a79decc1a172786856b50f35d727c989427
+Homepage: http://www.xfce.org/
+Description: Terminal emulator widget for GTK+ 3.0 - runtime files                   The VTE library provides a terminal emulator widget VteTerminal for                 applications using the GTK+ toolkit. It also provides the VtePTY object             containing functions for starting a new process on a new                            pseudo-terminal and for manipulating pseudo-terminals.
 
-Package: libxfont2-dev
+Package: libxfce4ui-dev
 Architecture: aarch64
-Version: 2.0.3
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Installed-Size: 12
-Depends: libxfont2
-Filename: dists/extras/main/binary-aarch64/libxfont2-dev_2.0.3_aarch64.deb
-Size: 3044
-MD5sum: c2b896a299023112b3ec8973563f321a
-SHA1: 972d83a2317b509e2340cc1bc200eadafff571cb
-SHA256: cf5e01cba10ce6a467214753161c2eb78276698fc1fdf5628b6135c401a6b7a6
-SHA512: 8b37262fbf809334bd715be7249411ce66e2a6470c3e670f7be18bcc85eb1ff1503c994f260f27fae95a86405ab9a589daf517275da0bc6978c5e3aefa9133c8
-Homepage:
-Description: Development files for libxfont2
+Version: 4.12.1
+Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
+Depends: libxfce4ui, libgtk2-dev, libxfce4util-dev, libxfconf-dev
+Filename: dists/extras/main/binary-aarch64/libxfce4ui-dev_4.12.1_aarch64.deb
+Size: 29424
+MD5sum: 03b6623f9d2e1ab1323238fc534fba56
+SHA1: 9b9c8a8dcc14831744bc180d3213838baa3b7144
+SHA256: de0a50fcdfe3d2519308465eb086ba4919dddde4afc637e5a1f2ab61e7ab8102
+SHA512: 782da50b49e07eee788d50c51606b7d3b611a7df84df00b392cbf5875a17396d7641a9cb36f596c2e6c0ae97a017fcabee18a0af61ee214e27ccdbc3beab5a33
+Homepage: http://www.xfce.org/
+Description: Development files for libxfce4ui - Gtk+2 variant                        This package contains the headers and the static library                            for libxfce4ui.
+
+Package: libxfce4ui
+Architecture: aarch64
+Version: 4.12.1
+Maintainer: Lokesh @hax4us
+Depends: libatk, libdbus-glib, fontconfig, freetype, gdk-pixbuf, glib, libgtk2, libice, libcairo-x, pangoxft, libsm, startup-notification, libx11, libxfce4util, libxfconf
+Filename: dists/extras/main/binary-aarch64/libxfce4ui_4.12.1_aarch64.deb
+Size: 355496
+MD5sum: 2871ceb4a23a752435b80a992a7773cc
+SHA1: f0cc3f9d6f84b143e900a1e46cdf5ce39eb3636c
+SHA256: f648c001abae914890e7d18efdb1a2c139e1f4dae3ca5b8d9ed608e5c1010669
+SHA512: c7750dc41c106f20e8fb903fbc325b21e159441d1bad414719de4ec51b11598725c73e1a273ebcd9593037dd01171a923ac9b4dea83f73faf53037d231391edb
+Homepage: http://www.xfce.org/
+Description: widget library for Xfce - Gtk+2 variant                                 libxfce4ui is used to share commonly used Xfce widgets among the Xfce               applications.                             .                                         This package provides the Gtk+2 variant of libxfce4ui.
+
+Package: libxfce4util-bin
+Architecture: aarch64
+Version: 4.12.1
+Maintainer: Lokesh @hax4us
+Filename: dists/extras/main/binary-aarch64/libxfce4util-bin_4.12.1_aarch64.deb
+Size: 49520
+MD5sum: 26ac26ff49a3494f704784bb71463731
+SHA1: d3e41e16041d5cb1bccec7ae0a96a1c70b520ca5
+SHA256: bd6bcefc5b09ee88ce7ff88438594bde99a5b0463a56e6dbe9ad1f20634b941f
+SHA512: 785aef6c954e0f61b07b2518ecf255e7d2b96603ad7f92a74be18e42c86f09865d1ba6094068ed303c7030edf8e7275e5c67ea9a481cbd97ec3bfcd7f389eb02
+Homepage: http://www.xfce.org/
+Description: tools for libxfce4util This package contains binaries used by Xfce basic utility library.
+ At the moment, the following programs are included:                                  - xfce4-kiosk-query: query Xfce kiosk capabilities.
 
 Package: libxfce4util-common
 Architecture: all
@@ -156,34 +248,6 @@ Description: common files for libxfce4util
  This package contains various infrastructure-independant common files for
   libxfce4util, the Xfce utility library.
 
-Package: libvte
-Architecture: aarch64
-Version: 0.50.2
-Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
-Depends: fontconfig, freetype, gdk-pixbuf, glib, libgtk3, libcairo-x, pangoxft, libx11
-Filename: dists/extras/main/binary-aarch64/libvte_0.50.2_aarch64.deb
-Size: 406452
-MD5sum: 441fb998ec649fb35c777e66ec61f48a
-SHA1: 57ccc37d79c58c2811422552b991ecb7d6d772dd
-SHA256: b573eaa0c2f57236a7802335e96ab77fe5f66506c991143d1721c29be01f59d8
-SHA512: 3c3a0e11bf71bbbf952748999a5300aa9a2f97a6efdf5701a18d6d9d2f9c13a2dacd0efb53211f1b8a80d64ce7fc5a79decc1a172786856b50f35d727c989427
-Homepage: http://www.xfce.org/
-Description: Terminal emulator widget for GTK+ 3.0 - runtime files                   The VTE library provides a terminal emulator widget VteTerminal for                 applications using the GTK+ toolkit. It also provides the VtePTY object             containing functions for starting a new process on a new                            pseudo-terminal and for manipulating pseudo-terminals.
-
-Package: libvte-dev
-Architecture: aarch64
-Version: 0.50.2
-Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
-Depends: libvte, pcre2-dev, libcairo-x-dev, libx11-dev, libgtk3-dev, pangoxft-dev, glib-dev
-Filename: dists/extras/main/binary-aarch64/libvte-dev_0.50.2_aarch64.deb
-Size: 42428
-MD5sum: e0478081f164205476af3f9762c42508
-SHA1: 059e41bb2bd9ea4328701d87dc9815caabcca8cf
-SHA256: fd2219f44961d91cac4bf2119f08ecb3c44dddfb92e9a118c22224d60927026b
-SHA512: e34f29d65a417fbe63ad02e8cb063ee996d036a83e76e3eb069813186dbbe09a5a35e78a15c46e07a77468a70ee3e4d656c43d25423508e1016d3d8c810f98f3
-Homepage: http://www.xfce.org/
-Description: Terminal emulator widget for GTK+ 3.0 - development files               The VTE library provides a terminal emulator widget VteTerminal for                 applications using the GTK+ toolkit. It also provides the VtePTY object             containing functions for starting a new process on a new                            pseudo-terminal and for manipulating pseudo-terminals.                              .                                         This package contains development files for the VTE library
-
 Package: libxfce4util-dev
 Architecture: aarch64
 Version: 4.12.1
@@ -199,89 +263,19 @@ Homepage: http://www.xfce.org/
 Description: Development files for libxfce4util                                     This package contains the headers for libxfce4util. If you intend to code
  applications for the Xfce4 desktop environment, you need to install this            package.
 
-Package: enscript
+Package: libxfce4util
 Architecture: aarch64
-Version: 1.6.6
-Maintainer: lokesh @hax4us
-Installed-Size: 1952
-Depends: perl
-Filename: dists/extras/main/binary-aarch64/enscript_1.6.6_aarch64.deb
-Size: 248748
-MD5sum: fd61c39c177beae8a171bc4bb8e3d58d
-SHA1: 5c52ac821f06029e41521508dbffa3450b2a07e6
-SHA256: cea3d85eb044848e5ccfc9afffbd756130ce043b4d71c0165b3925ddc48959c6
-SHA512: 78c270385cbe448555cbc391bcd0f2298a63482fbf216a60bd4636b67f8dcc1014a7fef8809103a3a40931f1bc60a7304d73323a3c57db9ebf1312a1e944cc76
-Homepage: http://git.savannah.gnu.org/cgit/ensript.git
-Description: Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes.
-
-Package: libgtk2
-Architecture: aarch64
-Version: 2.24.32
+Version: 4.12.1
 Maintainer: Lokesh @hax4us
-Depends: adwaita-icon-theme, desktop-file-utils, gdk-pixbuf, glib, glib-bin, libatk, libcairo-x, libepoxy, libxcomposite, libxdamage, libxfixes, libxi, libxinerama, pangoxft, shared-mime-info, x11-proto, hicolor-icon-theme
-Filename: dists/extras/main/binary-aarch64/libgtk2_2.24.32_aarch64.deb
-Size: 9509628
-MD5sum: c14bcfacd2d26fd0caf829234cf54b35
-SHA1: c78762c03daab520f6145932ea21b8b8716c59a3
-SHA256: ae09db3501eead13f0fb74331612ff6b13379c23b972ce62ce3845ebc3129d96
-SHA512: d7c9b1fc2d2847a6bb25637424ba1b1dff1e5fae0bce8af11175ff2554377a13a8c716814cdcab457d761ed93107ed445a1b6bfa3394808eb85482905ff80152
-Description: GTK+ graphical user interface library                                   GTK+ is a multi-platform toolkit for creating graphical user                        interfaces. Offering a complete set of widgets, GTK+ is suitable                    for projects ranging from small one-off tools to complete application               suites.                                   .                                         This package contains the shared libraries & binaries.
-
-Package: libdbus-glib
-Architecture: aarch64
-Version: 0.108
-Maintainer: Lokesh @hax4us
-Depends: libdbus, glib
-Filename: dists/extras/main/binary-aarch64/libdbus-glib_0.108_aarch64.deb
-Size: 192344
-MD5sum: dccf72cfcbb8448dcacb7aca1b6e9f1c
-SHA1: b62eaa5775a92d77d1040980c05c34ce5a79be95
-SHA256: b170967442f2bd8f4912b6fcffc69e57576e5b3196d147b639daa6fa09efca42
-SHA512: 55894303a01e66b977f1dde606acb5adf66a15668f17d6baf5426b599ec31bfb3b3e1764e3f250e9999342fc04e8eae2ae4d0dff0d54aabb0ce48d6316aa0b74
-Description: simple interprocess messaging system (GLib interface) D-Bus is a message bus, used for sending messages between applications. Conceptually it fits somewhere in between raw sockets and CORBA in terms of complexity. This package provides development files for a deprecated GLib-based D-Bus library. New code should se GDBus, part of GLib, instead.
-
-Package: hping3
-Architecture: aarch64
-Version: 3.0.0
-Maintainer: Lokesh @hax4us
-Installed-Size: 180
-Depends: libpcap, libandroid-shmem
-Filename: dists/extras/main/binary-aarch64/hping3_3.0.0_aarch64.deb
-Size: 49500
-MD5sum: 49e8fe8ec8806273133f8e3aa8e6dd66
-SHA1: 0bc3222ecdd0bf46a4684b07c36c1fb1753c8113
-SHA256: 57769c9e6783ece100f88b342c7d9d4bddf0c2be2ac052a660bbbd0c4221c48b
-SHA512: 12aabc4daefe8085386aae9dfedffa847c6a7f6bbec11257b7b680e8700b185c52c95cd95e73c7addb35b16a64b1718e2ca971310fa2095d4dbaa728833b1052
-Description: hping is a command-line oriented TCP/IP packet assembler/analyzer.
-
-Package: gobject-introspection
-Architecture: aarch64
-Version: 1.56.1
-Maintainer: lokesh @hax4us
-Installed-Size: 12108
-Depends: python, flex, glib
-Filename: dists/extras/main/binary-aarch64/gobject-introspection_1.56.1_aarch64.deb
-Size: 1323436
-MD5sum: 3c7683d2d35a8e099bc1f10c0cf34714
-SHA1: bf23a27b8c6e627c56a13e48a3a1db7eb75d033f
-SHA256: a8e45ef42e0e3fd8815f2f14f7c1806a70ae63b98e318b1df2064a6d25c7fab6
-SHA512: a14b7690c0ca2dbbb6c90d3f6ee73882c29cee7bdf96f6158de4e8578cb81d3f27f98db8cd9083b020a2867497ee6fe0d4bfae5128ffbfad8b98585988172c3a
-Description: The GObject Introspection is used to describe the program APIs and collect them in a uniform, machine readable format
-
-Package: httrack
-Architecture: aarch64
-Version: 3.49.2
-Maintainer: lokesh @hax4us
-Installed-Size: 2248
-Depends: openssl
-Filename: dists/extras/main/binary-aarch64/httrack_3.49.2_aarch64.deb
-Size: 437576
-MD5sum: fb7a7518dc836b50323f0b11fe75eff2
-SHA1: 4a5da76d5df2d268c2c7884aa43ccb678029230f
-SHA256: 7167a3bafc11fa2fbcb4244f51b372d3e4edc08ff450dfaa752c34d63a64ddc4
-SHA512: 9ab07caf77459ea6aa5104a000daf7ec93a20b5bd49061f595a78805018d8930afc677ef38edfb4767e278f2f239a781e4e654fc3c9f03515639156e61a6db1c
-Homepage: http://www.httrack.com
-Description: It allows you to download a World Wide Web site from the Internet
+Filename: dists/extras/main/binary-aarch64/libxfce4util_4.12.1_aarch64.deb
+Size: 49512
+MD5sum: a771c6abd7e46efb8f87bcaf81d81a03
+SHA1: ce350a47a2b0cb1c470cbcb5e86aa421dc283bf4
+SHA256: dbd7be8d707bc2b666d8aa8c7c0804b7e991d32598f85920162efbc6e440b1cb
+SHA512: 09c4e8700cee462abe4aebef4a5f21c1eda1880016c87ac7abb8ed5f971028b997b3ea25cc084239ae836b949b1ac3ba072fa946b4683a8eec38b4608c342d32
+Homepage: http://www.xfce.org/
+Description: tools for libxfce4util This package contains binaries used by Xfce basic utility library.
+ At the moment, the following programs are included:                                  - xfce4-kiosk-query: query Xfce kiosk capabilities.
 
 Package: libxfconf-dev
 Architecture: aarch64
@@ -297,33 +291,6 @@ SHA512: 5fb43e2bd95eff295ca6cde1494653cba1fc275aa55752fc750e2014ecf2e7f489c00c9f
 Homepage: http://www.xfce.org/
 Description: Development files for libxfconf                                         This package contains the development files libxfconf which are                     the main part of the Xfce4 configuration system. If you want to develope applications that use this library, you want                                to install this package.
 
-Package: libdbus
-Architecture: all
-Version: 1.12.2
-Maintainer: Lokesh @hax4us
-Depends: libx11, libx11-dev, libice, libice-dev, libexpat, libexpat-dev, glib, glib-dev, libxcb, libxcb-dev, libxcomposite, libxcomposite-dev, libxext-dev, libxi-dev, libxau-dev, xcb-util, libxaw, libxrender-dev, libsm, xtrans
-Filename: dists/extras/main/binary-aarch64/libdbus_1.12.2_aarch64.deb
-Size: 369388
-MD5sum: aa69c394e460fa0ff8d58ec59da68f34
-SHA1: b2f21838509c03a751f58e93d0ab33df01b2ddef
-SHA256: 95c07c781274ad1fa6895bf31837e28fb596613650de427a67c712a843f0092d
-SHA512: 6377280fe3219f43de6ae294c02e3fa602fdcc538cf3cc15c196f5cad8e1be0e0269721eb86e91d1d67f5ca5d2bdf1d9cf144f3637887bbc8b0f469097144e64
-Description: D-Bus is a message bus system, a simple way for applications to talk to one another. D-Bus supplies both a system daemon (for events such as “new hardware device added” or “printer queue changed”) and a per-user-login-session daemon (for general IPC needs among user applications). Also, the message bus is built on top of a general one-to-one message passing framework, which can be used by any two applications to communicate directly (without going through the message bus daemon).
-
-Package: libxfce4ui
-Architecture: aarch64
-Version: 4.12.1
-Maintainer: Lokesh @hax4us
-Depends: libatk, libdbus-glib, fontconfig, freetype, gdk-pixbuf, glib, libgtk2, libice, libcairo-x, pangoxft, libsm, startup-notification, libx11, libxfce4util, libxfconf
-Filename: dists/extras/main/binary-aarch64/libxfce4ui_4.12.1_aarch64.deb
-Size: 355496
-MD5sum: 2871ceb4a23a752435b80a992a7773cc
-SHA1: f0cc3f9d6f84b143e900a1e46cdf5ce39eb3636c
-SHA256: f648c001abae914890e7d18efdb1a2c139e1f4dae3ca5b8d9ed608e5c1010669
-SHA512: c7750dc41c106f20e8fb903fbc325b21e159441d1bad414719de4ec51b11598725c73e1a273ebcd9593037dd01171a923ac9b4dea83f73faf53037d231391edb
-Homepage: http://www.xfce.org/
-Description: widget library for Xfce - Gtk+2 variant                                 libxfce4ui is used to share commonly used Xfce widgets among the Xfce               applications.                             .                                         This package provides the Gtk+2 variant of libxfce4ui.
-
 Package: libxfconf
 Architecture: aarch64
 Version: 4.12.1
@@ -338,60 +305,20 @@ SHA512: d4511c637233c36e1e2ac71d6d367a37946ed18e7f60574d565b77c6e31f7781c42354e1
 Homepage: http://www.xfce.org/
 Description: utilities for managing settings in Xfce                                 xfconf contains xfconfd and xfconf-query.  - xfconfd handles the Xfce settings storage                                         - xfconf-query enables users to tune settings from command line
 
-Package: libdbus-dev
+Package: libxfixes-dev
 Architecture: aarch64
-Version: 1.12.2
-Maintainer: Lokesh @hax4us
-Depends: libdbus, pkg-config
-Filename: dists/extras/main/binary-aarch64/libdbus-dev_1.12.2_aarch64.deb
-Size: 22656
-MD5sum: 42bcfb3680220a08cdb5402a5359c14c
-SHA1: d6e9dc6e10a0d8140e5226c714328e4ccb9d5372
-SHA256: c0c69e551b59889eb16fa99b16302bb072e81a44b406f39f54cb2943fd436267
-SHA512: b201cfdf10ab4e6741b97b0e99b1b554f619963f8dd842831fed2baae05b009e7acf0ab4e0d38abcc045fa7b439532f00811d26b587787b9d549b2fa76639f9f
-Description: D-Bus is a message bus system, a simple way for applications to talk to one another. D-Bus supplies both a system daemon (for events such as “new hardware device added” or “printer queue changed”) and a per-user-login-session daemon (for general IPC needs among user applications). Also, the message bus is built on top of a general one-to-one message passing framework, which can be used by any two applications to communicate directly (without going through the message bus daemon). This package contains header files.
-
-Package: libxfce4ui-dev
-Architecture: aarch64
-Version: 4.12.1
-Maintainer: Lokesh<lokesh@hax4us.com> @hax4us
-Depends: libxfce4ui, libgtk2-dev, libxfce4util-dev, libxfconf-dev
-Filename: dists/extras/main/binary-aarch64/libxfce4ui-dev_4.12.1_aarch64.deb
-Size: 29424
-MD5sum: 03b6623f9d2e1ab1323238fc534fba56
-SHA1: 9b9c8a8dcc14831744bc180d3213838baa3b7144
-SHA256: de0a50fcdfe3d2519308465eb086ba4919dddde4afc637e5a1f2ab61e7ab8102
-SHA512: 782da50b49e07eee788d50c51606b7d3b611a7df84df00b392cbf5875a17396d7641a9cb36f596c2e6c0ae97a017fcabee18a0af61ee214e27ccdbc3beab5a33
-Homepage: http://www.xfce.org/
-Description: Development files for libxfce4ui - Gtk+2 variant                        This package contains the headers and the static library                            for libxfce4ui.
-
-Package: libxfont2
-Architecture: aarch64
-Version: 2.0.3
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Installed-Size: 172
-Depends: freetype, x11-proto, libfontenc, xtrans, xorg-util-macros
-Filename: dists/extras/main/binary-aarch64/libxfont2_2.0.3_aarch64.deb
-Size: 78432
-MD5sum: 8af499246396a22689b59190170d33e7
-SHA1: 13e8cc7c54fce205c86b5de74c9b2a2f8705e5d5
-SHA256: ec1da7241bf0b3fcf73696fe630c3b112186b2b7d040b4d60827e67aec2c4dc0
-SHA512: 9542ae041ea263f6485980350f483852d9d40fa9846489faca0cf984df8a1d1d56aec6ae99b8ca58eb3bef259cc58377d45fd2d938bba86f0cf204d848cc09e2
-Homepage:
-Description: X11 font rasterisation library
-
-Package: libdbus-glib-dev
-Architecture: aarch64
-Version: 0.108
-Maintainer: Lokesh @hax4us
-Depends: libdbus, libdbus-dev, libdbus-glib, glib, libexpat-dev, glib-dev, pkg-config
-Filename: dists/extras/main/binary-aarch64/libdbus-glib-dev_0.108_aarch64.deb
-Size: 41172
-MD5sum: 54cb2dbb42ee307b384ad1500323adfc
-SHA1: 6a22b88a9b00bb6bbcb776d736b54f0b42192e9f
-SHA256: 69bb07de5dd4c1260c8a19532bea8832557822c8826b7f4893f77e6bd005c309
-SHA512: 7681d4c5ad5265255ad42a33d2bad4d71441d2bdb855ad6b12feeca2ed4f7ab1501b0d24c50c01e4a1d049d432086fe86971fc6d2c16ad409bdef0f56b60c7a8
-Description: simple interprocess messaging system (GLib interface) D-Bus is a message bus, used for sending messages between applications. Conceptually, it fits somewhere in between raw sockets and CORBA in terms of complexity. This package provides development files for a deprecated GLib-based D-Bus library. New code should se GDBus, part of GLib, instead.
+Version: 5.0.3
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 16
+Depends: libxfixes
+Filename: dists/extras/main/binary-aarch64/libxfixes-dev_5.0.3_aarch64.deb
+Size: 4200
+MD5sum: 0b88eeb5efed5a5a832cd90ecf5eee03
+SHA1: 62bc609414aad6d9bdcc09729bbcfd9de108a5e5
+SHA256: 1f069cf386283c26fc4ff56061297d518af3e9dfddb0d8206f64b927dbd3bf86
+SHA512: 37ae2058554a6691d1c6fd037898d24839ea03cdffb9c54414935dfb8b406b11c2a839b80b1ae575956bb942f0aed2da554814611e2629776de066807d2cf493
+Homepage: https://www.x.org
+Description: Development files for libxfixes
 
 Package: libxfixes
 Architecture: aarch64
@@ -408,17 +335,108 @@ SHA512: 59faf02650bcf5677ff784bd9351ce44992ab4793b039d43384a2f2b8bf710372a7c30f9
 Homepage: https://www.x.org
 Description: FIXME:Add description
 
-Package: libxfce4util
+Package: libxfont2-dev
 Architecture: aarch64
-Version: 4.12.1
+Version: 2.0.3
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Installed-Size: 12
+Depends: libxfont2
+Filename: dists/extras/main/binary-aarch64/libxfont2-dev_2.0.3_aarch64.deb
+Size: 3044
+MD5sum: c2b896a299023112b3ec8973563f321a
+SHA1: 972d83a2317b509e2340cc1bc200eadafff571cb
+SHA256: cf5e01cba10ce6a467214753161c2eb78276698fc1fdf5628b6135c401a6b7a6
+SHA512: 8b37262fbf809334bd715be7249411ce66e2a6470c3e670f7be18bcc85eb1ff1503c994f260f27fae95a86405ab9a589daf517275da0bc6978c5e3aefa9133c8
+Homepage:
+Description: Development files for libxfont2
+
+Package: libxfont2
+Architecture: aarch64
+Version: 2.0.3
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Installed-Size: 172
+Depends: freetype, x11-proto, libfontenc, xtrans, xorg-util-macros
+Filename: dists/extras/main/binary-aarch64/libxfont2_2.0.3_aarch64.deb
+Size: 78432
+MD5sum: 8af499246396a22689b59190170d33e7
+SHA1: 13e8cc7c54fce205c86b5de74c9b2a2f8705e5d5
+SHA256: ec1da7241bf0b3fcf73696fe630c3b112186b2b7d040b4d60827e67aec2c4dc0
+SHA512: 9542ae041ea263f6485980350f483852d9d40fa9846489faca0cf984df8a1d1d56aec6ae99b8ca58eb3bef259cc58377d45fd2d938bba86f0cf204d848cc09e2
+Homepage:
+Description: X11 font rasterisation library
+
+Package: thunar
+Architecture: aarch64
+Version: 1.7.0
 Maintainer: Lokesh @hax4us
-Filename: dists/extras/main/binary-aarch64/libxfce4util_4.12.1_aarch64.deb
-Size: 49512
-MD5sum: a771c6abd7e46efb8f87bcaf81d81a03
-SHA1: ce350a47a2b0cb1c470cbcb5e86aa421dc283bf4
-SHA256: dbd7be8d707bc2b666d8aa8c7c0804b7e991d32598f85920162efbc6e440b1cb
-SHA512: 09c4e8700cee462abe4aebef4a5f21c1eda1880016c87ac7abb8ed5f971028b997b3ea25cc084239ae836b949b1ac3ba072fa946b4683a8eec38b4608c342d32
+Installed-Size: 9812
+Depends: libxfce4ui, libexo, libgtk3
+Filename: dists/extras/main/binary-aarch64/thunar_1.7.0_aarch64.deb
+Size: 1671272
+MD5sum: a42d30f6e3efc95b13edcd9109f68274
+SHA1: 1d91cb98f28c814641cb5d83fe00fb84665683fe
+SHA256: f7c945d37c93207ae764754902b455e986acccb971e746331c48ce7e963f44af
+SHA512: 9fcd412ec2f7f101e18182d5465da153557bd1c75e36e1d1e289fcbe4293ebe28895455997c13ca27a9c4370bbdf4083a226684e7a91db6112cab46f509725c4
+Description: Thunar is the Xfce file manager, a GTK+ 2 GUI to organise the files on your computer.
+
+Package: wireless-tools-dev
+Architecture: aarch64
+Version: 30pre9
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 60
+Depends: wireless-tools
+Filename: dists/extras/main/binary-aarch64/wireless-tools-dev_30pre9_aarch64.deb
+Size: 17284
+MD5sum: 5b6d3bfd3d40a2213758b624af483a13
+SHA1: 386a3fa7ebbc4d7aab5e44e747d282135b987a6e
+SHA256: 13fe6c27a7afde1fdfaf8969a82655c81eba4633c089932951130fdf0e3d0bd1
+SHA512: 49377eeda0a45baa33be8c2c9fa0f8f393bb27c94f81d7bbe49efae7d0727b2042a576522e9e8103527c02935a03c6ee9664afaf757a043875bbeb627d093c3a
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
+Description: Development files for wireless-tools
+
+Package: wireless-tools
+Architecture: aarch64
+Version: 30pre9
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 316
+Filename: dists/extras/main/binary-aarch64/wireless-tools_30pre9_aarch64.deb
+Size: 61864
+MD5sum: ea11908026a693f3b34eb913ee445e85
+SHA1: 5e22d8eec377496dee420f961e3575e0894378e3
+SHA256: c6c006cfc8101845c75cd467d8f0562652b3a0be4bfdaceda7cb045fee2a4e6b
+SHA512: 322036b92bca9b816927b046e70607cd402c8e5e64fc72336347bfba1dc6b4124db28935daf9fd3257ef2933012a1627b8c8166e6f7b5767b000ddc1ae398516
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
+Description: Tools allowing to manipulate the Wireless Extensions
+
+Package: xfce4-terminal
+Architecture: aarch64
+Version: 0.8.6
+Maintainer: Lokesh<lokesh@hax4us>@hax4us
+Depends: libatk, libcairo-x, gdk-pixbuf, glib, libgtk3, pangoxft, libvte, libx11, libxfce4ui, libxfce4util
+Filename: dists/extras/main/binary-aarch64/xfce4-terminal_0.8.6_aarch64.deb
+Size: 391336
+MD5sum: c55a26d5e04d44c541aba49d0257bd58
+SHA1: 7059192f8391dfe13fcda5bd7b5c7fbcd236c44b
+SHA256: 20c2e0bf3039c6a2bc2443608ef4156d1e70fdc94c83448946b4be388e8094c6
+SHA512: 43c78459983790dc884be37031439a9ca0763c070954c24dc98f0144d6905aaf89ca5670238df09a4c2d3c9cd179c990de4d03c8e427817c6fb4f2c5ffc756c8
 Homepage: http://www.xfce.org/
-Description: tools for libxfce4util This package contains binaries used by Xfce basic utility library.
- At the moment, the following programs are included:                                  - xfce4-kiosk-query: query Xfce kiosk capabilities.
+Description: Xfce terminal emulator        This package contains Terminal, which is a lightweight and easy to use              terminal emulator for X11. It was created to fit nicely into the Xfce               desktop environment, but it also fits nice with other environments.                 .                                         For people who already know GNOME 2 terminal and are searching for a                lighter but comparable replacement, Terminal
+
+Package: apt
+Architecture: aarch64
+Version: 1.4.8-8
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2896
+Depends: libcurl, liblzma, dpkg, gpgv, libc++, libdb, termux-exec
+Conflicts: apt-transport-https
+Replaces: apt-transport-https
+Filename: dists/extras/main/binary-aarch64/apt_1.4.8-8_aarch64.deb
+Size: 721612
+MD5sum: 0469e2256f1e5ddcf675c46e7e852fb8
+SHA1: 220ce9fe1969fa5a048b0f7aa3c1c3b583fd9a04
+SHA256: 507ba9bf360230c8102a5a4302debf59e948582b199c30bb243a61536878108d
+SHA512: 4f35e0807b275dafe8a9f610dc028803dea80544c89b14e8f04b18745b5fb179ab711711058c33789ca801b371f1916886b8e5302c48d6a4c0db02f0364d5681
+Homepage: https://packages.debian.org/apt
+Description: Front-end for the dpkg package manager
 
