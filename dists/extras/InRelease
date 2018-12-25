@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Architectures: all aarch64 arm i686 x86_64
 Codename: extras
 Components: main x11
@@ -53,3 +56,14 @@ SHA512:
  46ce7673af4fb994445048b61cc34825420584166d13d51f431d68c8c1da96b7984eafba6ffd702d18c54def1c2615cde39d6f9c57bebef20adf420f1057729d              800 main/binary-i686/Packages.xz
  e104bd83ca7b93705d352215f638f94d836e9c305b80a2f27ddcf696c1b80f8e3bf2565dd0b25074f337e1b488f0a0eba5585db6f124929cca4dc5601b51ebcb             1280 main/binary-x86_64/Packages
  418dcb820ecbaf63925b65d432a3e5403b1c69a32f89631ba5be34fe2e018bfafed96f90b82fc2fb4847bd9060c5146b8e3e0913968c3d8b908a237e1cb22a68              796 main/binary-x86_64/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEE7Hj64Fg53LsPvmdhWhOhIfJdBvcFAlwh1kQACgkQWhOhIfJd
+BvdXMgf9Gg2eynUlM7ZhdHIHdPBw3vUFGQPpqMM6e0GAV4jZzFyPGSgerXxOfhMn
+DBUCCLJ0kinUT5a+trX+A26E/SXZbnuUXIYK7eVONlhuVg6UqFw02sTBwwwZ7nAv
+2tpe3CXi2TbgPDXycO4Tn2DL/kxMvAZSOjdngcKF5Hnpf+WDe/8ZbW3OdYGXFJEs
+Utn16EIQZF1u/rmtY9gim0Ey1Hia4NLZStQ+XEMYVMrNxZKqxncrzAsKEtL7NS3T
++Se/GSwQGhONdU/i0dvRPnRdk36MuQdaBggKN/2VARtrMcwIm19eWr9tNUoBYjyR
+HqX/i9NMamqs/H6lGuYfLM3m2igW6A==
+=44lP
+-----END PGP SIGNATURE-----
